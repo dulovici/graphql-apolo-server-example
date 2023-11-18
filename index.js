@@ -3,7 +3,10 @@ import {startStandAloneServer} from "@apollo/server/standalone"
 
 
 //server setup
-const server = new ApolloServer({})
+const server = new ApolloServer({
+    //typedefs
+    //resolvers
+})
 
 const {url} = await startStandAloneServer(server,{
     listen:{port:4000}
